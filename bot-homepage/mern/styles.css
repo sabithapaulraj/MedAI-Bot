@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    display: block;
+    padding: 30px;
+    background-color: #e0f7ff; /* Very light blue */
+}
+
+.logo {
+    display: inline-block;
+    font-size: 36px; /* Increase the size */
+    font-weight: bold;
+    color: #3a6ea5; /* Darker blue for contrast */
+}
+
+.logo span {
+    color: #007bbf; /* Blue for contrast */
+}
+
+/* Landing section styles */
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7ff; /* Very light blue */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 650px;
+}
+
+.landing-content {
+    text-align: center; /* Center text horizontally */
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.landing-content h1 {
+    font-size: 48px; /* Increase the size */
+    color: #007bbf; /* Darker blue for better visibility */
+    font-weight: bold; /* Make the text bold */
+}
+
+.landing-content h1 span {
+    color: #3a6ea5; /* Another shade of blue for variation */
+}
+
+.landing-content p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #007bbf; /* Blue */
+}
+
+.landing-content p span {
+    color: #3a6ea5; /* Lighter shade of blue */
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.get-started-btn {
+    display: inline-block; /* Ensure it behaves like a button */
+    padding: 15px 30px; /* Increase button size */
+    background-color: #007bbf; /* Blue button color */
+    color: #fff;
+    border: none;
+    font-size: 18px; /* Increase font size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Reduced transition time */
+}
+
+.get-started-btn:hover {
+    background-color: #005b8a; /* Darker blue on hover */
+    transition: background-color 0.2s ease; /* Reduced transition time */
+}
+
+/* Healthcare agents section */
+.healthcare-agents {
+    display: flex;
+    justify-content: space-around; /* Space between buttons */
+    flex-wrap: wrap; /* Wrap buttons to the next line if needed */
+    margin-top: 100px;
+}
+
+.agent-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #007bbf; /* Blue background */
+    padding: 15px 30px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 50px; /* Rounded edges */
+    transition: background-color 0.2s ease, transform 0.2s ease; /* Smooth transition */
+    margin: 10px; /* Space between buttons */
+}
+
+.agent-btn i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #fff; /* White color for icons */
+}
+
+.agent-btn:hover {
+    background-color: #005b8a; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
