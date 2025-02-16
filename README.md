@@ -7,5 +7,5 @@
 ![MedAI Bot - The Team](team.png)
 
 ## The Idea
-![MedAI Bot - The Idea](idea.png)
+![MedAI Bot - The Idea](idea.png) 
 
