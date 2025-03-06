@@ -9,3 +9,5 @@
 ## The Idea
 ![MedAI Bot - The Idea](idea.png) 
 
+## Approach
+![Screenshot 2024-12-28 152611](https://github.com/user-attachments/assets/c671c783-c143-4489-bd3b-03ec2d77da54)
